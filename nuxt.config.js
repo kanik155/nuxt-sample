@@ -1,4 +1,8 @@
 module.exports = {
+  mode: 'spa',
+  generate: {
+    fallback: true
+  },
   /*
   ** Include css not in components
   */
